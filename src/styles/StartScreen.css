@@ -1,0 +1,20 @@
+.start-container{
+  text-align: center;
+}
+.start-screen{
+  margin: auto;
+  width: 30%;
+}
+.dev{
+  color: rgb(156, 205, 248);
+}
+.sobre{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+img{
+  width: 10rem;
+  border-radius: 8rem;
+}

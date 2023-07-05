@@ -1,0 +1,64 @@
+.game{
+  text-align: center;
+} 
+
+.dica .dica-game{
+  font-style: italic;
+  color: yellow;
+  font-weight: lighter;
+}
+
+.tentativas{
+  font-size:smaller;
+}
+.tentativas span{
+  font-style: italic;
+}
+
+.wordContainer{
+  padding: 1.2rem;
+  border: 1.3rem solid rgb(156, 205, 248);
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+  border-radius: 10px  ;
+}
+
+.letter, .blankSquare{
+  font-size: 4.5rem;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: antiquewhite;
+  color: black;
+  border: 3px solid black;
+}
+
+.letterContainer form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.letterContainer p{
+  text-align: center;
+}
+.letterContainer input{
+  height: 50px;
+  width: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-right: .5rem;
+  border-radius: 5px;
+}
+.letterContainer button{
+  padding: 5px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.button{
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+/* buttons */
+button{
+  background-color: #129b4e;
+  border: 1px #129b4e solid;
+  border-radius: 10px;
+  padding: 12px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-size: small;
+  cursor: pointer;
+}
+
+button:hover{
+  font-weight: bolder;
+}
+/* footer */
+.footer{
+  font-family: monospace;
+  text-align: center;
+}
+h5 a{
+  color:bisque;
+  text-decoration: none;
+}
+h5 a:hover{
+  text-decoration: underline;
+}
+
+/* header */
+h1{
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+/* import styled from 'styled-components';
+
+export const DivGameOver = styled.div`
+  text-align: center;
+    h3{
+      color: red;
+    }
+    p{
+      color: rgb(156, 205, 248);
+    }` */
+
+
+.game-over {
+  text-align: center;
+}
+.fim-title{
+  color: red;
+}
