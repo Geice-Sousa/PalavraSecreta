@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from '../componentes/Button';
 import '../styles/StartScreen.css';
+import developer from '../assets/developer1.jpeg'
+import dev from '../assets/developer.png'
 
 const StartScreen = ({startGame}) => {
   return (
@@ -12,7 +14,7 @@ const StartScreen = ({startGame}) => {
       <section className='start-screen'>
         <h3 className='dev'>Sobre a Dev</h3>
         <div className='sobre'>
-          <img src="src/assets/developer.jpeg" alt="" />
+          <img src={developer} alt="" />
           <p>Front-End Developer, mãe de Akin, criou este jogo para consolidar seus conhecimentos em React.</p>
         </div>
       </section>
