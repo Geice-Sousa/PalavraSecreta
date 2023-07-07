@@ -112,7 +112,7 @@ function App() {
     const uniqueLetters = [...new Set(letters)]; // new Set retornar um array sem elementos repetidos
 
     if (guessedLetters.length === uniqueLetters.length && gameStage === stages[1].name
-      // && guessedLetters.length > 1
+      // ou && guessedLetters.length > 1
     ){
       // adc pontuação
       setScore((actualScore)=> actualScore += 100);
