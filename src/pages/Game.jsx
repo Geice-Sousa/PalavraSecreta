@@ -18,10 +18,16 @@ const Game = ({
 
   const handleSubmit = (e)=>{
     e.preventDefault();
+
+    if(letter === ""){
+      console.log('vc precisa digitar')
+      
+    }
     verifyLetter(letter);
     setLetter('');
     letterInputRef.current.focus();
   };
+
 
   return (
   <>
@@ -42,7 +48,7 @@ const Game = ({
       <div className='letterContainer'>
         <p>Digite seu palpite: </p>
 
-        <form >
+        <form>
           <input 
             type="text" 
             name="letter" 
