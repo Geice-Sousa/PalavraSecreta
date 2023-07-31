@@ -6,4 +6,4 @@
 ## 🎯 [Começar a jogar agora](https://palavra-secreta-six.vercel.app/)
 <br>
 
-![Print da aplicação](./src/assets/print.PNG)
+![Print da aplicação](https://github.com/Geice-Sousa/PalavraSecreta/blob/main/public/assets/print.PNG)
