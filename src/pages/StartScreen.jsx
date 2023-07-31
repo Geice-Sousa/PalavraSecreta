@@ -4,7 +4,7 @@ import '../styles/StartScreen.css';
 
 
 const StartScreen = ({startGame}) => {
-  const pathImg = 'src/assets/developer.png';
+  const pathImg = 'public/assets/developer.png';
   
   return (
     <div className='start-container'>
