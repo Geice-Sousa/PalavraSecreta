@@ -13,14 +13,14 @@ const StartScreen = ({startGame}) => {
 
       <Button onClick={startGame}>Jogar</Button>
       
-      <section className='start-screen'>
+      {/* <section className='start-screen'>
         <h3 className='dev'>Sobre a Dev</h3>
         <div className='sobre'>
           <img src={pathImg} alt="foto de uma mulher negra com cabo blackpower e óculos de grau preto e redondo
         "/>
           <p>Front-End Developer, mãe de Akin, criou este jogo para consolidar seus conhecimentos em React.</p>
         </div>
-      </section>
+      </section> */}
 
     </div>
   )
