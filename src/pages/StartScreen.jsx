@@ -1,10 +1,11 @@
 import React from 'react';
 import Button from '../componentes/Button';
 import '../styles/StartScreen.css';
+// import photoDeveloper from '../..public/assets/developer.png'
 
 
 const StartScreen = ({startGame}) => {
-  const pathImg = 'public/assets/developer.png';
+  const pathImg = '../../public/assets/developer.png';
   
   return (
     <div className='start-container'>
